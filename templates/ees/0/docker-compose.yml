@@ -1,5 +1,5 @@
 odoo:
-  image: odoo
+  image: odoo 10
   ports:
     - "8069:8069"
   links:
@@ -7,5 +7,5 @@ odoo:
 db:
   image: postgres
   environment:
-    - POSTGRES_USER=odoo
-    - POSTGRES_PASSWORD=odoo
+    - POSTGRES_USER=ees
+    - POSTGRES_PASSWORD=ees
