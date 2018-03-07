@@ -1,5 +1,5 @@
 odoo:
-  image: odoo 10
+  image: odoo10
   ports:
     - "8069:8069"
   links:
